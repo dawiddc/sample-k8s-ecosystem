@@ -7,7 +7,7 @@ import lombok.Value;
 @Data
 @Value
 @Builder
-public class SampleDTO {
+public class SampleDto {
     long id;
     String sampleData;
 }
