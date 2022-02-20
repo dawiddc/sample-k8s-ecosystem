@@ -3,6 +3,7 @@ ARG APP_BUILD_LOCATION=/usr/src/app
 FROM maven:3.8.4-eclipse-temurin-17-alpine AS build
 COPY src ${APP_BUILD_LOCATION}/src
 COPY pom.xml ${APP_BUILD_LOCATION}
+# TODO: Decouple from hardcoded jar version. Prevent clean maven repo checkout at each build.
 RUN mvn -f ${APP_BUILD_LOCATION}/pom.xml clean package \
   && mkdir target/dependency \
   && cd target/dependency \
