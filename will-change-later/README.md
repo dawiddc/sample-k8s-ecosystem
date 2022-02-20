@@ -2,6 +2,8 @@
 
 Dockerized stub project created just for fiddling with code
 
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=dawiddc_sample-k8s-ecosystem&metric=alert_status)](https://sonarcloud.io/dashboard?id=dawiddc_sample-k8s-ecosystem)
+
 ## Getting Started
 
 ---
