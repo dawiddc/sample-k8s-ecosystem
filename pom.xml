@@ -12,10 +12,4 @@
         <module>will-change-later</module>
     </modules>
 
-    <properties>
-        <sonar.projectKey>dawiddc_sample-k8s-ecosystem</sonar.projectKey>
-        <sonar.organization>dawiddc</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    </properties>
-
 </project>
