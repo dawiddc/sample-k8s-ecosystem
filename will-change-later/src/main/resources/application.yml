@@ -1,4 +1,13 @@
 spring:
+  profiles:
+    active: dev
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: ${oauth2.github.client-id} # Must be overridden within application-dev.yml
+            client-secret: ${oauth2.github.client-secret} # Must be overridden within application-dev.yml
   rabbitmq:
     host: rabbitmq
 
